@@ -1,0 +1,255 @@
+{
+  "codebook_version": "2.0",
+  "date": "2026-06-30",
+  "description": "Seven-category constraint codebook for entrepreneurial discourse analysis. Categories are treated as coordinate axes in a compositional field rather than as discrete types.",
+  "similarity_threshold": 0.42,
+  "gate_threshold": 0.40,
+  "meta_filter_min_sentence_length": 15,
+  "categories": {
+    "financial": {
+      "definition": "Constraints involving money, funding, capital, cost, investment, credit, or affordability.",
+      "keywords": [
+        "money", "capital", "funding", "fund", "funds", "cost", "costs", "expensive",
+        "afford", "affordable", "credit", "loan", "loans", "investment", "invest",
+        "investor", "investors", "cash", "revenue", "bootstrap", "runway", "burn rate",
+        "budget", "bank", "banks", "financing", "raise", "raised", "raising",
+        "seed", "series a", "series b", "vc", "venture capital", "angel"
+      ],
+      "multiword_phrases": [
+        "couldn't afford",
+        "no money",
+        "ran out of money",
+        "raise capital",
+        "get funding",
+        "too expensive",
+        "not enough capital",
+        "cash flow problem",
+        "bank rejected",
+        "banks didn't approve"
+      ],
+      "prototype_sentences": [
+        "We didn't have the capital to scale.",
+        "The banks wouldn't lend to us.",
+        "It was too expensive to build the first version.",
+        "We couldn't afford to keep operating."
+      ],
+      "representative_phrases": [
+        "no money", "the banks didn't approve him", "don't have the money", "too expensive to build"
+      ]
+    },
+    "market": {
+      "definition": "Constraints involving customer demand, competition, market size, adoption, or sales traction.",
+      "keywords": [
+        "customers", "customer", "market", "demand", "competition", "competitors",
+        "competitive", "adoption", "sales", "traction", "buyers", "buyer",
+        "sell", "selling", "sold", "clients", "client", "growth", "audience"
+      ],
+      "multiword_phrases": [
+        "no customers",
+        "no demand",
+        "market too small",
+        "customers didn't buy",
+        "competitive pressure",
+        "hard to sell",
+        "no traction",
+        "product-market fit",
+        "convincing customers"
+      ],
+      "prototype_sentences": [
+        "The market just wasn't ready for our product.",
+        "We couldn't get any customers.",
+        "Everyone was doing the same thing so competition was brutal.",
+        "There was no demand for what we were building."
+      ],
+      "representative_phrases": [
+        "customers didn't buy", "there was no demand for product", "a thousand other applicants", "competitive pressure"
+      ]
+    },
+    "institutional": {
+      "definition": "Constraints from regulation, law, policy, compliance, licensing, government, or bureaucracy.",
+      "keywords": [
+        "regulation", "regulations", "regulatory", "law", "laws", "legal", "policy",
+        "policies", "compliance", "comply", "licensing", "license", "government",
+        "governmental", "bureaucracy", "bureaucratic", "approval", "approved",
+        "FDA", "SEC", "IRS", "regulator", "regulators", "certification", "certified",
+        "permit", "permits", "audit", "audits", "GDPR", "HIPAA"
+      ],
+      "multiword_phrases": [
+        "needed FDA approval",
+        "regulations blocked us",
+        "licensing process",
+        "compliance requirements",
+        "government red tape",
+        "legal restrictions",
+        "regulatory environment"
+      ],
+      "prototype_sentences": [
+        "The regulations made it nearly impossible to launch.",
+        "We had to wait months for FDA approval.",
+        "Compliance costs were enormous for a small company.",
+        "The licensing process took a year."
+      ],
+      "representative_phrases": [
+        "regulations blocked us", "needed FDA approval", "compliance requirements", "licensing process"
+      ]
+    },
+    "capability": {
+      "definition": "Constraints involving lack of internal knowledge, expertise, technical skill, or learning.",
+      "keywords": [
+        "learn", "learning", "learned", "know", "knew", "knowledge", "expertise",
+        "expert", "skill", "skills", "technical", "understand", "understanding",
+        "capability", "capabilities", "figure out", "figuring out", "training",
+        "trained", "development", "experience", "novice", "beginner"
+      ],
+      "multiword_phrases": [
+        "didn't know how",
+        "had to learn",
+        "steep learning curve",
+        "no expertise",
+        "lacked technical skill",
+        "figured out on our own",
+        "had to teach ourselves"
+      ],
+      "prototype_sentences": [
+        "We didn't know how to build the tech ourselves.",
+        "The learning curve was incredibly steep.",
+        "None of us had the technical expertise.",
+        "We had to learn as we went."
+      ],
+      "representative_phrases": [
+        "didn't know how", "had to learn it", "steep learning curve", "lacking in expertise"
+      ]
+    },
+    "talent": {
+      "definition": "Constraints about hiring, recruiting, retaining, or finding qualified people.",
+      "keywords": [
+        "hire", "hiring", "hired", "recruit", "recruiting", "recruited", "recruitment",
+        "engineer", "engineers", "developer", "developers", "team", "people",
+        "employees", "employee", "staff", "staffing", "workforce", "candidate",
+        "candidates", "talent", "worker", "workers", "quit", "quitting"
+      ],
+      "multiword_phrases": [
+        "hard to find",
+        "talent shortage",
+        "couldn't hire",
+        "struggle to recruit",
+        "hiring is difficult",
+        "no one wanted to join",
+        "team of one",
+        "difficult to retain"
+      ],
+      "prototype_sentences": [
+        "Finding senior engineers was almost impossible.",
+        "We struggled to recruit qualified people.",
+        "There was a real talent shortage in our field.",
+        "Retention was our biggest challenge."
+      ],
+      "representative_phrases": [
+        "difficult to recruit people", "talent shortage", "difficulty in recruiting engineers"
+      ]
+    },
+    "network": {
+      "definition": "Constraints about industry connections, partnerships, mentors, or ecosystem access.",
+      "keywords": [
+        "network", "networks", "networking", "connection", "connections", "connected",
+        "partner", "partners", "partnership", "partnerships", "mentor", "mentors",
+        "mentorship", "ecosystem", "community", "introductions", "introduction",
+        "warm intro", "cold outreach", "referral", "referrals", "relationship",
+        "relationships"
+      ],
+      "multiword_phrases": [
+        "no connections",
+        "no one to connect with",
+        "no partners",
+        "no mentor",
+        "outside the network",
+        "didn't know anyone",
+        "no warm intros",
+        "no ecosystem support"
+      ],
+      "prototype_sentences": [
+        "We had no connections in the industry.",
+        "There was no ecosystem to plug into.",
+        "We didn't know anyone in the space.",
+        "Finding a co-founder in our network was impossible."
+      ],
+      "representative_phrases": [
+        "no connections", "no one to connect with", "no partners found"
+      ]
+    },
+    "self_imposed": {
+      "definition": "Voluntary constraints adopted on the basis of values, ethics, mission, or principles.",
+      "keywords": [
+        "values", "value", "ethics", "ethical", "mission", "principle", "principles",
+        "chose", "choose", "decided", "voluntarily", "purpose", "purposeful",
+        "intentional", "intentionally", "commit", "committed", "commitment",
+        "philosophy", "vision", "beliefs", "belief", "moral"
+      ],
+      "multiword_phrases": [
+        "decided not to",
+        "chose not to",
+        "based on our values",
+        "for ethical reasons",
+        "against our principles",
+        "local only",
+        "committed to",
+        "wouldn't compromise"
+      ],
+      "prototype_sentences": [
+        "We chose not to accept certain kinds of investors.",
+        "It was against our values to expand that way.",
+        "We deliberately kept the company local.",
+        "We wouldn't compromise on our mission."
+      ],
+      "representative_phrases": [
+        "we decided not to", "based on our values", "local only"
+      ]
+    }
+  },
+  "exclusion_rules": [
+    {
+      "id": "R1",
+      "rule": "Statements of the form 'we could not afford to hire X' or 'no money to hire' are coded as financial rather than talent.",
+      "rationale": "The binding constraint is capital availability, not labor market conditions."
+    },
+    {
+      "id": "R2",
+      "rule": "Statements of the form 'we did not know how to do X' or 'had to teach ourselves' are coded as capability rather than talent.",
+      "rationale": "The binding constraint is internal knowledge, not recruitment."
+    },
+    {
+      "id": "R3",
+      "rule": "Statements of the form 'we chose not to do X for ethical reasons' or 'against our values' are coded as self_imposed regardless of surface category.",
+      "rationale": "The constraint is voluntarily adopted, not externally imposed."
+    }
+  ],
+  "meta_filter": {
+    "min_sentence_length_chars": 15,
+    "excluded_patterns": [
+      "welcome to",
+      "thank you for listening",
+      "please subscribe",
+      "leave a review",
+      "follow us on",
+      "this episode is brought to you by",
+      "\\[speaker.*?\\]"
+    ]
+  },
+  "gate_prototypes_for_embedding_fallback": [
+    "We just couldn't find the money to build it.",
+    "The regulations made it nearly impossible to launch.",
+    "We had no idea how to write the software.",
+    "Finding senior engineers was almost impossible.",
+    "We had no connections in the industry.",
+    "The market just wasn't ready for our product.",
+    "We deliberately kept the company small.",
+    "It was too expensive to hire anyone.",
+    "We didn't have the technical skills.",
+    "Compliance costs were enormous.",
+    "There was no demand for the product.",
+    "We had to bootstrap everything.",
+    "The talent pool was extremely limited.",
+    "We couldn't get any investors interested.",
+    "Nobody in our network knew this space."
+  ]
+}

@@ -1,0 +1,4 @@
+comparison,kappa,n,raw_agreement_pct,interpretation
+Coder 1 vs Coder 2 (inter-coder),0.8383,230,86.52,Almost perfect
+Coder 1 vs Pipeline,0.4913,230,55.22,Moderate
+Coder 2 vs Pipeline,0.4456,230,50.87,Moderate

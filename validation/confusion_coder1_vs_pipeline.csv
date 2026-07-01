@@ -1,0 +1,9 @@
+,pipe_financial,pipe_market,pipe_institutional,pipe_capability,pipe_talent,pipe_network,pipe_self_imposed,pipe_unclassified
+c1_financial,23,0,0,0,2,0,1,0
+c1_market,1,24,1,2,2,5,6,5
+c1_institutional,3,1,17,0,0,1,0,0
+c1_capability,0,2,1,12,3,2,2,0
+c1_talent,0,0,1,0,18,0,0,0
+c1_network,0,0,1,2,1,15,4,3
+c1_self_imposed,0,1,3,1,0,1,6,0
+c1_unclassified,3,2,6,13,4,6,11,12

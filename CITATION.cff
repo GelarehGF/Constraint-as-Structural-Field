@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its outputs, please cite the accompanying paper."
+title: "Constraint as Structural Field: A Computational Analysis of Entrepreneurial Discourse"
+authors:
+  - family-names: "Farhadian"
+    given-names: "Gelareh"
+    affiliation: "University Canada West"
+repository-code: "https://github.com/GelarehGF/Constraint-as-Structural-Field"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-30"
+keywords:
+  - entrepreneurship
+  - computational-discourse-analysis
+  - field-theory
+  - constraint-regimes
+  - narrative-analysis
+  - podcast-corpus

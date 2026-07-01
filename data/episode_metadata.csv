@@ -1,0 +1,4 @@
+episode_id,guest_name,guest_company,industry,n_sentences_raw,n_sentences_gated,n_constraint_sentences
+EP001,[Guest A],[Company A],technology,320,87,18
+EP002,[Guest B],[Company B],finance,285,54,11
+# Schema file - full corpus metadata is 125 rows.,,,,,,

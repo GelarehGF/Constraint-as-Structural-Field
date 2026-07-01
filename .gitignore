@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Data — transcripts are not redistributed (see README)
+transcripts/
+*.docx
+*.doc
+!README*.docx
+!CODING_INSTRUCTIONS*.docx
+
+# Intermediate outputs that are regenerable
+*.npy
+outputs/embeddings.npy
+outputs/sentences.csv
+
+# Sensitive
+*.env
+.credentials
+*_api_key*
+config.local.*
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db

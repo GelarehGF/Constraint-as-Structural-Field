@@ -1,0 +1,5 @@
+axis,n_runs,mean_overlap_pct,min_overlap_pct,mean_ari,verdict
+similarity_threshold_0.30_to_0.50,5,92.0,80.0,0.59,Boundaries fuzzy (field-consistent)
+min_constraint_sentences_3_to_15,5,92.0,80.0,0.81,Stable in canonical range
+kmeans_random_seed_7_values,7,100.0,100.0,0.97,Fully stable
+bootstrap_90pct_subsample_10_trials,10,98.0,80.0,0.91,Stable

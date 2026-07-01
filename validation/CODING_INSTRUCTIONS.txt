@@ -1,0 +1,126 @@
+CODING INSTRUCTIONS FOR CONSTRAINT VALIDATION SAMPLE
+=====================================================
+
+Thank you for participating in this validation exercise. Your task is to independently
+classify each sentence in the validation sample into one of seven constraint categories,
+or to mark it as unclassified.
+
+READ THIS ENTIRE DOCUMENT BEFORE STARTING.
+
+
+THE SEVEN CATEGORIES
+--------------------
+
+1. FINANCIAL
+   Money, funding, capital, cost, credit, affordability, investment.
+   Examples:
+     "We had no money to build the first version."
+     "The banks turned us down three times."
+     "It was just too expensive to keep going."
+
+2. MARKET
+   Customer demand, competition, market size, adoption, sales traction.
+   Examples:
+     "Customers just didn't want the product."
+     "There were a thousand other companies doing the same thing."
+     "The market wasn't ready for what we had built."
+
+3. INSTITUTIONAL
+   Regulation, law, policy, compliance, licensing, government, bureaucracy.
+   Examples:
+     "The FDA approval process took eighteen months."
+     "New regulations made our business model illegal overnight."
+     "The licensing requirements were prohibitive."
+
+4. CAPABILITY
+   Lack of internal knowledge, expertise, technical skill, learning gaps.
+   Examples:
+     "We didn't know how to write software at all."
+     "The learning curve was incredibly steep."
+     "We had to teach ourselves everything from scratch."
+
+5. TALENT
+   Hiring, recruiting, retaining, or finding qualified people.
+   Examples:
+     "We couldn't find any experienced engineers."
+     "There was a serious talent shortage in our field."
+     "Everyone we hired left within six months."
+
+6. NETWORK
+   Industry connections, partnerships, mentors, ecosystem access.
+   Examples:
+     "We had zero connections when we started."
+     "No one in the industry would take a meeting with us."
+     "There was no ecosystem to plug into where we lived."
+
+7. SELF_IMPOSED
+   Voluntary limitations from values, ethics, mission, or principles.
+   Examples:
+     "We chose not to raise venture capital."
+     "It was against our values to expand internationally."
+     "We deliberately kept the company local."
+
+
+UNCLASSIFIED
+------------
+
+Mark a sentence as "unclassified" if it does not clearly fit any of the seven
+categories, or if it is not primarily about a constraint at all.
+
+
+THREE IMPORTANT EXCLUSION RULES
+-------------------------------
+
+The following patterns often confuse coders. Please follow these rules strictly:
+
+RULE 1: "Could not afford to hire X" is FINANCIAL, not TALENT.
+        The binding constraint is money, not people.
+        Example: "We couldn't afford to hire a senior developer" -> FINANCIAL
+
+RULE 2: "Didn't know how to do X" is CAPABILITY, not TALENT.
+        The binding constraint is internal knowledge, not recruitment.
+        Example: "We didn't know how to build the machine learning stack" -> CAPABILITY
+
+RULE 3: "For ethical/values reasons" is SELF_IMPOSED, regardless of surface topic.
+        The binding constraint is voluntary, not externally imposed.
+        Example: "We refused to work with defense contractors on principle" -> SELF_IMPOSED
+                 (not INSTITUTIONAL, even though defense contracting is regulated)
+
+
+HOW TO CODE
+-----------
+
+Open the file `validation_sample_CODER1.csv` (or CODER2, depending on your assignment)
+in Excel, Numbers, LibreOffice, or Google Sheets. For each row:
+
+1. Read the sentence in the `sentence_text` column.
+2. Decide which single category best captures the constraint being described.
+3. Enter the category name (lowercase, with underscore for self_imposed) in the
+   `coder_label` column. Valid values:
+     financial, market, institutional, capability, talent, network, self_imposed, unclassified
+
+
+PLEASE
+------
+- DO NOT look at the `pipeline_label` column while coding. That is the classifier's
+  own guess; your job is to code independently.
+- DO NOT consult the other coder or discuss any sentences during coding.
+- DO NOT search the web for the sentence or try to identify the episode.
+- Trust your first read; if you spend more than 30 seconds on a sentence, mark it
+  unclassified.
+
+When you have completed all 230 rows, save the file as `validation_sample_CODER1_completed.csv`
+(or CODER2_completed) in the same folder, and notify the study coordinator.
+
+
+QUESTIONS?
+----------
+
+If you have questions about the codebook itself (not about specific sentences), you
+may contact the study coordinator before coding. Once coding has begun, please do not
+communicate about specific sentences until both coders have finished.
+
+
+TIME COMMITMENT: approximately 90 to 120 minutes for 230 sentences.
+
+Thank you for your careful work.

@@ -1,0 +1,9 @@
+category,n_in_category,kappa_C1_vs_C2,kappa_C1_vs_Pipeline,kappa_C2_vs_Pipeline
+financial,33,0.9779,0.7968,0.7731
+market,52,0.6945,0.5625,0.4996
+institutional,35,0.9476,0.6109,0.5981
+capability,40,1.0,0.3947,0.3947
+talent,31,0.9706,0.7048,0.6767
+network,41,0.828,0.4717,0.4324
+self_imposed,36,0.9542,0.2282,0.187
+unclassified,91,0.6942,0.21,0.2017

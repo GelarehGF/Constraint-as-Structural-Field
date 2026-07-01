@@ -1,0 +1,231 @@
+sample_id,sentence_id,text,coder2_label,confidence_1to5,notes
+1,20389,"Raghma, where can they go first?",unclassified,4,"Question, no constraint content"
+2,3424,"Again, we are not changing the process.",unclassified,4,"Process statement, no constraint"
+3,21646,"Like, are we being asked to provide short term working capital to help the business kind of get out of the blocks and and start selling?",financial,3,Working capital question — implied financial constraint
+4,16923,"You can't and shouldn't go alone because we were we were never designed to do that, right?",network,3,'go alone'/need others — relational/network framing
+5,22284,We don't have plans in the near term for revenue because it takes a lot of energy to build that and to maintain it.,financial,3,'no plans for revenue' + cost framing — revenue/financial constraint
+6,34705,We have to be sure that things make sense for each company and each brand.,unclassified,4,"General statement, no constraint"
+7,2444,"And that made a huge difference, obviously, in the way that we build the companies and grow the businesses and everything that we do right now.",unclassified,4,No constraint signal
+8,4596,We might not like the answer and we benefit from clarity and you have to make a decision and be clear and communicate that.,unclassified,3,Generic decision-making
+9,11761,But what partners do you need in order to make this work?,network,4,'partners do you need' — explicit network/partner need
+10,20948,"But they can't hire because people are nervous about startups when they can get, you know, huge roles with, you know, Microsoft or something like that.",talent,5,'can't hire' — clear talent constraint
+11,15274,"And then, of course, life got in the way I worked and did various jobs because I had a family and stuff like that.",unclassified,4,"Biographical, not constraint"
+12,30662,"We might line together, for example, what kind of people they will need internally to make this change happen or to give them an idea of what kind of expenses they will be incurring to make this investment so that they could understand, OK, now I realize the perimeter of my budget.",financial,3,Budget/expenses — financial framing
+13,29301,"And because of our tight terms and semesters, we're really tight in elements, they don't have a lot of time to do that element.",capability,3,'tight in elements... don't have time' — capacity constraint
+14,2243,They don't even know who we are.,market,3,'don't even know who we are' — market awareness/visibility
+15,31881,"And believe me, I have a lot of friends and I now work at Google who worked at North.",unclassified,4,"Anecdotal, no constraint"
+16,34389,"Again, I can't say enough good things about the team, how quickly everybody pivoted and found ways around this, and so suddenly we found everybody was home office and working remotely and we had to find clever solutions like engineers shipping prototype by courier from one house to the next, so the next guy could work on something that he was working on and how could we do this long-term, and then slowly we brought back only essential employees to mitigate risks, so obviously a shipper can't be shipping from home.",capability,3,Operational pivot during COVID — capability/adaptation
+17,20344,"And they said shortage of experience talent, not the startup early stage talent, but experience talent, experience learning, you know, somebody that had say five to 10 years in digital marketing or, you know, cybersecurity or stuff like that, or operational excellence or human resources and stuff like that.",talent,5,'shortage of experience talent' — explicit talent shortage
+18,23366,"We have a challenge to support, bring some of your business knowledges, your financial knowledge.",capability,3,Knowledge gap framing
+19,32514,"That's what I mean when I said the first initial innovation, and then the product just works better and better and better.",unclassified,3,"Innovation statement, no constraint"
+20,30827,"And then as I did that, I realized we needed to build communities on purpose in virtual reality because even a few years ago, it was a technology for mostly privileged white males that were wanting to game.",market,3,Limited demographic reach — market/audience framing
+21,9718,We need to be part of the conversation that shapes the future of this technology.,unclassified,3,"Aspiration, not constraint"
+22,6251,"Four years ago, we didn't have these privileges, including this campus, we were in the old one.",unclassified,3,"'we didn't have these privileges' — vague, no clear category"
+23,18819,"So what we have done is we make sure we delegate responsibilities properly, and we are growing very fast.",unclassified,3,Process statement
+24,34796,"And so how can we do value exchange and value creation here, supporting consumers in different parts and what they need to get done and how we can help support them and what they need to get done.",unclassified,3,"Mission framing, not constraint"
+25,2800,"So if we know 80% of people hate their job and people on average gonna stay with my company for three to five years as employees, then why don't I use these two pieces of knowledge and empower my team members so when they come on board, they know that they have two to three years to build a six figure company on their end and they exit the company.",unclassified,2,Long generic strategic claim
+26,38018,I just don't know at what cost.,financial,3,"'at what cost' — cost concern, financial"
+27,3021,"But at the end of the day, when we started this company and started contacting educators, the biggest challenge was I don't have the time.",market,4,'biggest challenge was I don't have the time' from educators — market/customer barrier
+28,37637,"We don't use textbooks, and our mission is to help students shorten the time between their learning and their actual jobs, or their first job to be more accurate.",unclassified,4,"Mission, no constraint"
+29,10922,So initially I would say the main challenge for us was introducing people to a technology they've not heard of before or don't have a reference point for and trying to explain to them how this new idea could be helpful.,market,4,'main challenge... introducing people to a technology' — market education/adoption
+30,3402,"But when you get to the area that needs a license and need registrations, basically, you see that, okay, you are running the 2020 business, 2020 year 2020 business, with the tools of like 30 years before.",institutional,5,License/registrations — explicit institutional constraint
+31,18789,"We are one of those companies, I mean, there are companies out there that are either trying to figure out their values or don't have their values figured out.",self_imposed,3,Values orientation — self-imposed framing
+32,36999,"And also our system, it doesn't really follow all the comments and the rules.",institutional,3,'doesn't follow comments and rules' — compliance/institutional
+33,22116,People didn't know how to create a video themselves before.,capability,4,'didn't know how to create a video' — capability
+34,36580,"We, we build a sales team trying to reach out to other clients, just bring them those opportunities.",unclassified,3,Sales activity statement
+35,22560,"And then as monetization kicked into our engine, that then allowed us to focus in.",unclassified,3,Monetization statement
+36,25581,"So to us, that is the challenge, defining the right people to fill the shoes.",talent,4,'defining the right people to fill the shoes' — talent challenge
+37,25111,We had the break in between.,unclassified,5,Filler statement
+38,21362,"Now what we have to do, how we can pivot our business, we have to adapt this technology.",capability,3,Pivot/adapt technology — capability
+39,3592,"But by being a practitioner ourselves, we just chose to be compliant with lots of regulations.",self_imposed,4,'we just chose to be compliant' — explicit self-imposed
+40,16572,"So those are the kind of partners that we like to work with that can allow us again to scale without having to hire hundreds and hundreds of people, which is in the past, to be honest, how we got into trouble, you know, several years ago is bringing on too many people too quickly, right?",talent,3,Hiring trouble framing — talent
+41,33826,And that's how I was able to create a great network to learn and how to overcome such challenge.,network,3,'create a great network' — network framing
+42,15829,They didn't have places to live.,unclassified,3,'didn't have places to live' — context not business constraint
+43,20973,And you don't get to hear lots of talent.,talent,3,'don't get to hear lots of talent' — talent/voice constraint
+44,9925,I would like the government to categorize our industry as being essential.,institutional,4,Government categorization request — institutional
+45,6639,So if you don't know something don't pretend that you know it and go find somebody who does and learn about it and try to learn everything you can about that issue.,capability,3,Knowledge limitation framing — capability
+46,15147,"It means the post-COVID skills, what we do need, because there's a lot of technology that are growing during a pandemic, and we understand the need of technology right now more.",capability,3,Skill needs post-COVID — capability
+47,36221,They didn't know each other for for a while.,unclassified,3,"Network awareness, no clear constraint"
+48,25452,And so we do we have competitors?,unclassified,3,Question about competitors
+49,8005,"In every cases, the founders, and actually we as a, I don't know, advisor, whatever mentor, we need to have the same and exact point of view that where we have to focus on it.",unclassified,2,Generic alignment statement
+50,27245,Government is not really going to radically change how we do business.,institutional,3,Government/business — institutional framing
+51,561,So those are the kind of contacts that we need to get started.,network,3,'kind of contacts that we need' — network need
+52,18284,"Natalie Portman and her masterclass on masterclass.com says it really well, she doesn't memorize the script, she memorizes the story, right?",unclassified,4,Anecdote about Natalie Portman
+53,29493,So we need to be able to work with people that are different from us.,unclassified,3,Generic diversity statement
+54,27008,"So, you know, these kind of, we have a lot of very tight regulations that can affect these people, these companies come, or we can create such as services for others, such as Uber or, for example, Airbnb.",institutional,4,'tight regulations that can affect' — institutional
+55,9376,I think they need certification just like we do with data science.,institutional,4,'need certification' — institutional
+56,24704,"We were focusing on automating repetitive, tedious tasks that people need to do.",unclassified,3,"Product description, no constraint"
+57,38225,"When we talk about challenges at Fluvog, just from an overall business perspective, you know, we talked about economies of scale.",unclassified,3,"Reference to economies of scale, no specific constraint"
+58,10323,"We were like, no, I don't think so.",unclassified,4,Filler
+59,15534,You're trying to see what is still needed in the market and keep trying to improve your product.,market,3,Market needs framing
+60,20591,"Because again, we want to focus on the business side, the KPIs, the, you know, I mean, these are big investments.",financial,3,'big investments' — financial framing
+61,29248,"So for us, we wanted to build a platform that could be a global company.",unclassified,3,Aspiration statement
+62,30511,We actually don't do much video and it's not that we don't think there's value there.,self_imposed,3,'we don't do much video' by choice
+63,8710,We need to talk about ethics and sustainability because we just didn't get there.,self_imposed,3,"Ethics/sustainability — values framing, self-imposed"
+64,35368,Then that cost becomes a problem.,financial,4,'cost becomes a problem' — financial
+65,28847,And one of the things we talked about was the educational piece and the lack of talent in the market.,talent,5,'lack of talent in the market' — explicit talent constraint
+66,14221,"The first venture, unfortunately, I didn't consider my investor was not participating willingly.",financial,4,'investor was not participating willingly' — financial/investor
+67,3745,We currently know of nobody else doing it in this methodology.,market,3,'know of nobody else doing it' — market positioning
+68,27060,Is there regulations that are stopping you from moving forward?,institutional,5,'regulations stopping you' — explicit institutional
+69,7395,"And so in order to think about the industry, it requires a degree of advertising, or not advertising, but marketing and communications directly to policymakers so that we can impact law, impact regulation.",institutional,3,Policy/regulation impact framing — institutional
+70,33886,"So I had savings, I had a lot of business running that was able to also fund the company.",financial,4,'savings... fund the company' — financial
+71,29650,And that solves the seller problem.,unclassified,3,Solution statement
+72,26884,So how we can do that one.,unclassified,3,Question fragment
+73,17329,So they can't get the talent to support their idea.,talent,5,'can't get the talent' — explicit talent
+74,15424,Why would we not do that?,unclassified,3,Question fragment
+75,12900,So we standardized the process in our platform.,unclassified,3,Process description
+76,21279,"How we can see, find a different needs.",unclassified,3,Question about needs
+77,10845,"But we, we became part of the community in a genuine way.",unclassified,3,Community statement
+78,28874,"Our education systems actually help them to be prepared for engineering, for data science, for math, for science by itself, or there is a gap there that students who are willing to go to some programs like art, associate arts programs, then maybe cannot find many jobs there.",capability,3,Education gap for students — capability/skill
+79,2765,So we lost 1600 potential clients in an hour.,market,4,'lost 1600 potential clients' — market loss
+80,16319,The one reason I have it is I cannot pay the bills.,financial,5,'cannot pay the bills' — explicit financial
+81,36579,"So why don't you give them the opportunity that we create like our own marketing, like we market for them.",market,3,Marketing on behalf of others — market
+82,19044,"So just be aware that there is it's not free money, like it comes with something and you have to meet certain requirements and all that kind of stuff.",institutional,3,'meet certain requirements' — institutional/compliance
+83,38286,We don't track our best customers.,unclassified,3,Operational statement
+84,29629,"Speaker 3 And also, what's powerful is that because of this model, which is opaque, right, sellers do not advertise any of their prices, which means that they can pursue, you know, profit maximizing strategies by not revealing the price through let you know, and selling as much as they can at higher sticker prices, right?",market,3,Pricing/market opacity — market dynamics
+85,16252,"And you know, you just figure it out, you just need to start, right?",unclassified,3,Generic encouragement
+86,15050,"And all of the mentorship services, subsidized mentorship services and access to money and access to market, none of that should be an issue.",network,3,Mentorship/access framing — could be network
+87,22562,"We have over 800,000 users, which means it's really important for us to not listen to all of them, because building a product for everyone is building a product for no one.",market,3,Customer prioritization — market segmentation
+88,28255,"So about five years ago, you'd say that community didn't have that talent pool.",talent,4,'community didn't have that talent pool' — talent
+89,25157,It's very hard to minimize our values to three.,self_imposed,3,'minimize our values' — self-imposed framing
+90,22930,"So what are the challenges in this part, in the stakeholders?",unclassified,3,Generic question about challenges
+91,18619,I was doing application development for large organizations.,unclassified,4,Biographical
+92,17356,"Even you fail, you still, you cannot do undone your knowledge, you know, what you cannot undone, it's to forget your knowledge that you already learned it.",capability,3,Knowledge framing — capability
+93,23925,"Oh, do I have to hire a full team of individuals in order to build a pilot project so I can actually test this in the market.",talent,3,'hire a full team' to test — talent question
+94,14002,"You don't know their policies, procedures.",network,3,'don't know their policies' — network/relational gap
+95,36019,So I cannot find friends or be very close relationships with them that I ask help.,network,4,'cannot find friends or be very close relationships' — network
+96,22577,"We still, to this day, haven't raised any investor funding.",financial,5,'haven't raised any investor funding' — explicit financial
+97,9764,"And I think the one thing that the question always comes up is a variety of different things about absorption rates and what types of supplements to take, what combination of supplements to take and vitamins.",unclassified,3,"Question about supplements, no constraint"
+98,6166,But we also wanted to engage you.,unclassified,3,Engagement statement
+99,24920,"But on the business side, we have been able to make some partnership with people with really great experience in business over the last 20 or 30 years.",network,3,'partnership with people with great experience' — network
+100,36075,"And in this cost of living environment, it's very hard to be able to support yourself on those lower salaries.",financial,4,Cost of living + lower salaries — financial
+101,1183,I don't pay any franchise fees.,financial,3,'don't pay franchise fees' — financial framing
+102,1829,"So I don't want us to feel like we're, you know, washing our hands of this and hey, you big company in government, you have to figure it all out.",self_imposed,2,Responsibility framing — could be self-imposed
+103,33863,What are then the challenges to get it to market?,market,3,Question about market access — market
+104,9084,"Ultimately, we had access to technology to create something more than raw data through very, very primitive means like access and, and some of these early software.",capability,3,Limited tech access — capability/tools
+105,4019,"And we said, I don't know.",unclassified,4,'I don't know' — too vague
+106,18781,Doesn't it take time and effort to get the right people at the right stages of this business?,talent,3,'right people at the right stages' — talent
+107,17935,"There's, there's a million people that have been in the industry for a long time that are happy to answer a quick question and they don't necessarily have to be your mentor, but you can absolutely bounce ideas off of them and, and figure out just a different perspective, which I think is, is really important.",network,4,'people in the industry happy to answer' — network/mentorship
+108,5718,And I don't even know what to say to that.,unclassified,4,'don't even know what to say' — too vague
+109,29888,"But just to say that, OK, we have this regulation right now that solves all the problems.",institutional,3,Regulation mention — institutional
+110,10850,I actually need a tool like in-stage and a relationship would form out of that.,network,3,'tool... and a relationship' — network
+111,26711,"So even if we got good at being, you know, ag and culturalist, we didn't want to see ag and farmers.",self_imposed,3,Did not want to see — self-imposed framing
+112,2910,"So my business partner and I, what we really wanted to do was start a business that increased access to this high quality, high impact work and degraded learning.",unclassified,3,Mission framing
+113,985,"The big challenge happened for us, especially in ProQ, in logistic.",unclassified,3,"'big challenge happened... in logistic' — too vague, no category clear"
+114,31967,I don't need to make choices like that.,unclassified,3,'don't need to make choices' — vague
+115,14283,"The next thing I knew, I have a law degree because I'm thinking to myself, if you're going to study this, you might as well make this official because I couldn't design the programs they wanted without having the solid knowledge.",capability,4,'couldn't design without solid knowledge' — capability
+116,34188,And then we search for the required funds to be able to get the product to market.,financial,4,'search for required funds' — financial
+117,22749,So I am very much proactive in the local business community and anything we can do to add value.,network,3,Local business community engagement — network
+118,28311,"You know, part of that is assisting people with seeing how what they can do will benefit them in the community and change some of the, I want to be sensitive about, you know, there's a reason why some of our communities, at least some of the ones that I've worked in, haven't developed those skills because they've sort of created a dependency on, you know, governments or the band office or someone to lead the way.",capability,3,Skill development gaps in communities — capability
+119,19918,"And we really primarily looked at that for the international market, but due to COVID and the change in the market, we really had to pivot to something that was more suited to the local market.",market,4,'COVID and change in the market' forced pivot — market
+120,3027,How am I going to manage that?,unclassified,4,Question fragment
+121,19541,Thank you for coming back to us on Innovation Fuel.,unclassified,5,Host thank-you
+122,8196,Speaker 1 That is really great.,unclassified,5,Host filler
+123,4280,Do you need to still want more money to raise or do you are in the right place of that one?,financial,3,'want more money to raise' — financial
+124,17785,"And because my company is relatively new, my bank account hadn't been open long enough for me to wire the money.",financial,4,'bank account hadn't been open long' — financial/banking
+125,31618,And yet we're a for profit company.,unclassified,3,Identity statement
+126,14440,Speaker 1 So you choose the content marketing for your personal branding.,unclassified,4,"Question/statement, no constraint"
+127,9807,"Speaker 3 Working in high pressure corporation projects deadline, it gave me kind of stress and anxiety.",unclassified,3,"Personal stress, not business constraint"
+128,2334,"Because again, reaching out and building those partnership networks.",network,3,'partnership networks' — network
+129,2318,And then we had to cancel it.,unclassified,4,'had to cancel it' — too vague
+130,17128,"And what that happened, we weren't, by the way, that's worth, again, say it again, our first salesperson rather than the first developer or the first or second developer.",talent,3,Salesperson hiring framing — talent
+131,26646,But we also see a lot of challenges locally and connecting individuals and different minority individuals to business opportunities.,market,3,Connecting minorities to opportunities — market access
+132,12915,"And if there is an issue, then we jump in to help them.",unclassified,3,Help statement
+133,27427,So it's happened or we forced to do it.,unclassified,3,'forced to do it' — too vague
+134,3126,"Our employees have been incredibly productive, there have been some challenges, of course, you know, especially for younger employees trying to separate the home life from the work life when you're always in the same place can can be a challenge.",capability,3,Productivity challenges working from home — capability/adaptation
+135,26059,It didn't do what we expected it to do.,unclassified,3,'didn't do what we expected' — too vague
+136,2923,"The company never got, you never got engaged with the organization.",network,3,Engagement with organization — network
+137,9118,"So I think that while we don't have vast legislation that restricts us from appropriate use of data that has been shared by our consumers or customers, there is still a tremendous amount that you can do.",institutional,3,Legislation re: data — institutional
+138,28263,"It's great you get the knowledge, but if you don't get the practical execution of the mentorship and how to put that into action, that's where the divide is.",capability,3,Practical execution gap — capability
+139,9099,If you don't have a driver's license.,institutional,3,Driver's license — institutional
+140,12730,"So I would say penetrating far away market, that's our current main challenge.",market,4,'penetrating far away market' — explicit market constraint
+141,27536,"It is always a struggle because at any given time, there's no universal solution to maintaining a perfect culture in the organization, because at any given time, one of your people will be struggling and going through a new life challenge and we need to pivot constantly.",talent,3,"Maintaining culture, people struggling — talent/people"
+142,8201,"For the leasing customers, there's a few different problems that specifically our model solves.",market,3,Customer problems — market
+143,20783,I have some challenge to hiring good talents.,talent,5,'challenge to hiring good talents' — explicit talent
+144,29194,So the food bank won't take it.,institutional,3,Food bank rule — institutional/policy
+145,19414,And so we do need to partner.,network,4,'we do need to partner' — explicit network
+146,14121,And I wouldn't want for anybody I'm mentoring.,unclassified,3,Mentoring statement
+147,6269,"The issue, especially for business use is the compliance, especially for industries, for businesses that use our services, for them compliance is very, very important factor.",institutional,5,'compliance... very important factor' — institutional
+148,31662,"And that's a tough thing, but if we didn't focus on sales and I didn't have customers, there is no driftscape.",market,4,Sales/customers focus — market
+149,15958,"And I'll tell you, first of all, what is transformative technology?",unclassified,4,Question opener
+150,15817,"So for the last like three months, we were able to have our own online business, you know, set up.",unclassified,3,Online business setup statement
+151,30104,"Now, does it always need to be technology driven?",unclassified,3,Question about technology
+152,3300,I think we need to have a better partnership here.,network,4,'better partnership' — network
+153,32622,"If it takes you more than three weeks, if you're not ashamed of what you're publicly posting and you can't get customers, you can't get one customer out of it, you're doing something wrong.",market,3,Customer acquisition framing — market
+154,4866,And and you saw some really big challenges there in the way people have been treated.,unclassified,3,'big challenges in the way people have been treated' — vague
+155,15411,"If we didn't have that, then anybody could put something out there and say it's of value.",unclassified,3,Quality control statement
+156,26298,So never be afraid of financing your business by issuing stock for other investors or entrepreneurs.,financial,4,Stock issuance framing — financial
+157,18714,So the learnings and the failures never stop.,capability,3,Learning/failures — capability
+158,2237,"And then we also have to find a way to get businesses on the app, but we can't get customers without the businesses and we can't get business without the customers.",market,4,Two-sided marketplace cold-start — market
+159,32761,It really depends on the kind of person that you get to hire where you cannot generalize everybody.,talent,3,Hiring quality — talent
+160,7979,"If we cannot understand their values, maybe we will give them wrong advices.",capability,3,Understanding values — capability/knowledge
+161,12417,None of us have a crystal ball.,unclassified,4,'no crystal ball' — too vague
+162,5956,There is so much revenue to be made.,market,3,Revenue available — market opportunity
+163,31808,"And because we work directly with tourism customers who support businesses, we've gotten to see this direct impact.",unclassified,3,Customer impact statement
+164,23353,"But yes, you know, there are these regulatory hurdles, you know, the institutional culture of things that we're going to have to persuade some people that this is, you know, in the best interest of the community, as well as the best interest of, you know, the country, you know, we can save so much money, both for individuals as for and for the health care system by keeping people healthy at home.",institutional,5,'regulatory hurdles' — explicit institutional
+165,5845,Let's talk about how you're going to overcome the competition.,market,4,'overcome the competition' — market
+166,33175,"How long is it before the investors start to say, hmm, maybe this isn't quite working the way we thought it would, right?",financial,3,Investor patience — financial
+167,7424,We cannot think about virtual and augmented reality.,unclassified,3,'cannot think about VR' — vague
+168,2669,We never book an appointment with a person that we are interviewing.,self_imposed,3,"'never book an appointment' — chosen practice, self-imposed"
+169,4947,And that's something that we were we baked into the plan was a priority for us.,unclassified,3,Plan/priority statement
+170,10107,So what we did is we created the proof of concept.,unclassified,3,POC statement
+171,6827,What if we could do it better?,unclassified,4,Generic question
+172,26673,"I could have started practicing law, but I couldn't ever cross that threshold because I felt like I wasn't implementing anything indigenous in that area.",self_imposed,4,"'couldn't cross because didn't implement indigenous' — values-based, self-imposed"
+173,22628,"And so this continuous decision of really putting money on the line, really investing in product and the team, I think that has been one of the ways that we've been able to leverage the resources that we continue to gain back into the business itself.",financial,3,Reinvestment in product — financial
+174,27920,"Well, our banks are strong because of strong regulation that didn't take the risk that had the problem in the United States.",institutional,4,'strong banks because of strong regulation' — institutional
+175,7469,"And being a responsible organization, we have to ensure that we don't put out a product that is hallucinating to our clients.",self_imposed,4,'responsible organization... don't put out hallucinating product' — self-imposed
+176,27306,"So even on this call, we are multicultural community, we have to embrace that.",unclassified,3,Multicultural community statement
+177,5226,"And so the fact that we have two people in our business, we can then afford to balance the business and also training.",financial,3,'two people... afford to balance' — financial framing
+178,4565,We've lost the spontaneity and that's exhausting for everyone.,unclassified,3,'lost spontaneity' — too vague
+179,19321,"And we have to help them, right?",unclassified,3,Help statement
+180,6438,"And so that requires kind of a fundamental economic shift, which I don't know if I'm allowed to say this, but we kind of made up the economy so we can kind of change those rules too.",unclassified,3,Economic shift statement
+181,30485,"But again, William, I love the idea and the concept and I think what I think it lends is as you sort of said, is building that community because the smaller tech elements, the smaller tech startups need the network, they need the network of mentors, they need the network of how do we keep them in BC and how do we keep them growing in BC, for an example, this for the van technology.",network,4,'smaller tech startups need the network' — explicit network
+182,23946,"But yeah, in general, an entrepreneur who can only afford to hire one person really wants a full-stack developer which is even a rarer commodity because they have to know everything about all the different components that go to a software.",financial,4,'can only afford to hire one person' — financial (per exclusion rule)
+183,15723,"So that's specific, like one example of what we have done.",unclassified,4,Example statement
+184,16225,"Who, who is it for?",unclassified,4,Question fragment
+185,4970,"It's not, it's not out of the realm, but we had to get through the hurdles of opening the business first.",institutional,3,Hurdles of opening business — institutional
+186,17549,"Because if you tie to your local customers, to your local market, and when I say local market, I don't just talk about probably several customers to purchase a product or not.",market,3,Local market dependence — market
+187,3636,So there are lots of elements happening in the technology sector at our company.,unclassified,3,Sector statement
+188,13077,What are they struggling with in post-marketing?,market,4,Post-marketing struggles — market
+189,2242,"The restaurants and the other types of businesses, we don't have a relationship right now.",network,3,'don't have a relationship' with restaurants — network
+190,27299,And that's when growth will happen.,unclassified,3,Growth statement
+191,20928,We never make people do that.,self_imposed,3,"'never make people do that' — chosen restraint, self-imposed"
+192,71,"I mean, right after that, I mean, because of my I don't know if I should call it popular popularity or whatever, other people approached me for for similar things to develop for them.",unclassified,3,Popularity statement
+193,37983,"That would be great Yeah, but part of our issue is that we have so few Pairs of each individual style that if we start putting them in a warehouse We're not going to have enough for the stores and we can't afford to make more of them or we we can't afford and I Mean that the bigger picture of things not just financially because we need the space to carry more diverse Arrangements, right?",financial,5,'can't afford to make more' — explicit financial constraint
+194,23809,"We know our industry, but sometimes our industry doesn't have all the answers.",capability,4,Industry knowledge gap — capability
+195,2137,And we created something that we that we knew our customers wanted.,unclassified,3,Customer satisfaction statement
+196,37445,"But if let's say you say that I want to know the last sales per customer, then it's not able to do it.",capability,3,Tool capability limitation — capability
+197,10960,That's something that we need people to do.,talent,3,'something we need people to do' — talent need
+198,24184,"I spent two months, no resources.",financial,4,'no resources' — financial
+199,34171,What are then the challenges to get it to market?,market,4,'challenges to get to market' — market
+200,12351,There wasn't much innovation in the space.,market,3,'wasn't much innovation in the space' — market
+201,27678,I am powerless because I'm a victim.,unclassified,3,"'powerless because I'm a victim' — emotional, no business category"
+202,6824,And how can we maximize our opportunity there?,market,3,Market opportunity question
+203,19319,"I mean, we have to, we have to see the purpose.",unclassified,3,Purpose statement
+204,27791,But what we did was that we really understood early report by Mike Lazaridis that it wasn't talent only at what you could call the right from university or college.,talent,3,Talent pool framing — talent
+205,5997,You are worried that public health might knock on your door.,institutional,4,'public health might knock' — institutional
+206,27871,"Do we need institutions that are co-developed with industry, not as a partner looking out from the outside inside, but do we need industry to be part of us?",network,4,Industry-institution partnership — network
+207,17562,"So the depth of the need, the significance of the need is a very important concept to take care of because I saw a lot of tech entrepreneurs to get very excited about building it, very high tech or building a technology, but they don't look about, okay, what need this technology would resolve and what is the significance of the need?",market,3,Need significance for market — market
+208,8237,"And we are beginning to see some Sharia compliant ETFs and some maybe mutual funds, nothing very concrete.",financial,3,Sharia-compliant financial products — financial
+209,24923,Sometimes they want us to directly get involved with their customers.,unclassified,3,Customer involvement statement
+210,33311,"Yeah, it's it's a tough time for our people.",unclassified,3,"'tough time' — vague, no category"
+211,31978,"Do you have any problem to find talents, especially in programmers that they have enough knowledge to create good quality or user experience people that they know how to design digital elements?",talent,5,"'find talents, especially programmers' — explicit talent"
+212,16535,There is nothing really that is across the board industry-wide that would drive an industry.,market,3,Industry-wide drivers — market
+213,24913,"In industries we are going after, I would rather talk about how we do it is people trust people as I mentioned, it's not technology problem.",network,3,'people trust people' — network/trust
+214,13311,"And so they just have to figure out how to change it, you know.",unclassified,3,Generic change statement
+215,3037,"You know, I don't know how to do this.",capability,4,'don't know how to do this' — explicit capability per exclusion rule
+216,3403,And you need to somehow reconcile these together to be operating legally with no problem in terms of compliance.,institutional,4,Compliance reconciliation — institutional
+217,28319,"If the business is doing well, the individuals in the community are doing well because we did a quick calculation of the dollars that were being paid out in salaries to the community's people.",unclassified,3,Community wellness statement
+218,18124,So what is the most difficult part of this consulting process?,unclassified,4,Question about consulting
+219,7854,"He came with an engineering background, and he was a founder of many entrepreneurs.",unclassified,4,Background statement
+220,33297,"Ah, yes, Gollari.",unclassified,5,Filler/name
+221,3000,"The students are leveraging, if they don't get a job with one of those employers, that's okay, because they can leverage that experience and show it off to another employer who might have the capacity to hire at a larger scale and land meaningful employment.",talent,3,Employment placement — talent/market
+222,15547,"The second one is industry, okay?",unclassified,4,Filler
+223,19088,"So if I cannot fundraising, what else I can do?",financial,5,'cannot fundraising' — explicit financial
+224,28291,Some communities don't have that issue.,unclassified,3,Community variation statement
+225,8635,"One, we want people to be compliant, not just because it's a regulation, but by collecting good data in a timely fashion means that if we have an outbreak and that trailer of animals is involved, we can very accurately pinpoint where the issue is or a food recall, right?",institutional,4,Compliance framing — institutional
+226,30233,I didn't know how electricity works.,capability,5,'didn't know how electricity works' — explicit capability
+227,26989,But we just had a sort of a funding gap.,financial,5,'funding gap' — explicit financial
+228,20638,We'd just be guessing half the time because we don't know all the details.,capability,3,'don't know all the details' — capability/knowledge
+229,22591,Maybe we get to a certain stage where it becomes incredibly difficult.,unclassified,3,'becomes incredibly difficult' — too vague
+230,15640,We just don't know what to take.,capability,3,'don't know what to take' — capability/knowledge

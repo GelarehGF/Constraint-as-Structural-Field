@@ -1,0 +1,7 @@
+episode_id,guest_name,guest_company,industry
+EP001,[Guest A],[Company A],technology
+EP002,[Guest B],[Company B],finance
+EP003,[Guest C],[Company C],healthcare
+# Note: Schema file. Full 125-episode metadata should list every episode with,,,
+"# its guest, company, and one of: technology, finance, retail, healthcare,",,,
+"# education, agriculture, manufacturing, services, energy, unknown",,,

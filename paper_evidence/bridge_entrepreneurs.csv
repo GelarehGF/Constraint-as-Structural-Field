@@ -1,0 +1,6 @@
+episode_id,dominant_constraint,profile_entropy,betweenness_centrality,distinct_neighbor_dominants
+EP-A,capability,2.51,0.087,capability;financial;talent
+EP-B,talent,2.43,0.081,talent;market;self_imposed
+EP-C,self_imposed,2.38,0.079,self_imposed;capability;network
+EP-D,capability,2.22,0.076,capability;institutional;talent
+EP-E,market,2.11,0.074,market;financial;network

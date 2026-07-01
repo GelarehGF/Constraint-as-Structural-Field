@@ -1,0 +1,7 @@
+metric,typology_range,field_range,observed,verdict
+Silhouette (k=5),> 0.50,0.15-0.45,0.26,FIELD
+Modularity (KMeans),> 0.40,0.15-0.40,0.20,FIELD
+Modularity (Louvain),> 0.40,0.15-0.40,0.28,FIELD
+ARI: KMeans vs Louvain,> 0.70,0.20-0.55,0.24,FIELD
+ARI: KMeans vs dominant,> 0.70,0.20-0.55,0.79,TYPOLOGY
+ARI: Louvain vs dominant,> 0.70,0.20-0.55,0.15,NEITHER

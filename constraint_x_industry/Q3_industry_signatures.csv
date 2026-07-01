@@ -1,0 +1,9 @@
+industry,n_episodes,over_represented,under_represented
+technology,42,capability (1.33),talent (0.73); self_imposed (0.80)
+education,22,talent (1.67),market (0.55)
+services,12,network (1.44); talent (1.35),institutional (0.81)
+retail,10,market (1.65); self_imposed (1.39),institutional (0.55); network (0.59)
+healthcare,9,institutional (2.29); self_imposed (1.72),financial (0.15); capability (0.64)
+energy,7,market (1.31); self_imposed (1.26),capability (0.44)
+finance,6,financial (3.72),talent (0.07); institutional (0.30); capability (0.35)
+agriculture,3,institutional (2.92); network (1.89),talent (0.13); financial (0.49)
