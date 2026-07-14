@@ -258,7 +258,7 @@ The validation sample was constructed by stratified random selection: approximat
 
 ## Generative AI Disclosure
 
-Claude.ai was used for language refinement, structural editing, and debugging assistance during development. It was not used for data analysis, coding, statistical computation, or interpretation of results. The constraint codebook and all analytical decisions were developed by the authors. All content, methods, and conclusions are the sole responsibility of the authors.
+It was not used for data analysis, coding, statistical computation, or interpretation of results. The constraint codebook and all analytical decisions were developed by the authors. All content, methods, and conclusions are the sole responsibility of the authors.
 
 The sentence-transformers/all-MiniLM-L6-v2 model is used within the pipeline as a deterministic feature extractor for sentence embeddings — a generative AI component only in the technical sense that it is a transformer-based model. It is not used to generate any text presented in the paper.
 
